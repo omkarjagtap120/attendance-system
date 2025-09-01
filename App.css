@@ -1,0 +1,71 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #eef2f9, #f8faff);
+}
+
+/* Logo */
+.App-logo {
+  height: 120px;
+  pointer-events: none;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15));
+  transition: transform 0.3s ease;
+}
+.App-logo:hover {
+  transform: scale(1.05) rotate(5deg);
+}
+
+/* Optional spin if you want to keep it */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Header */
+.App-header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #1a1a1a;
+  padding: 40px;
+  text-align: center;
+}
+
+.App-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #243b55;
+}
+
+.App-header p {
+  max-width: 600px;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Links */
+.App-link {
+  color: #3a4efc;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.App-link:hover {
+  color: #1a2ab5;
+  border-color: #1a2ab5;
+}
