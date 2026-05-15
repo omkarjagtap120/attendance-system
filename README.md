@@ -354,10 +354,6 @@ if (err.code === 'ER_DUP_ENTRY') {
 - [ ] Export attendance report as CSV / PDF
 - [ ] Push notifications for upcoming sessions
 - [ ] Dark mode
----
-## 📄 License
-MIT — free to use and modify with attribution.
----
 
 <div align="center">
 Built with React · Node.js · MySQL | GHRCEM Mini Project
